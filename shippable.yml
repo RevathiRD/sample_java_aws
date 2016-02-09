@@ -6,12 +6,12 @@ jdk:
    - openjdk6
    - oraclejdk8
 env:
- M1=ONE
- M2=TWO
+   - M1=ONE
+   - M2=TWO
 matrix:
  include:
    - jdk: openjdk7
-     env: M1=one
+     env: M1=ONE
  exclude:
    - jdk: oraclejdk8
      env: M2=TWO
