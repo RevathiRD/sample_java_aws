@@ -11,10 +11,10 @@ env:
 matrix:
  include:
    - jdk: openjdk7
- env: M1=one
+     env: M1=one
  exclude:
    - jdk: oraclejdk8
- env: M2=TWO
+     env: M2=TWO
 
 build:
  # pre_ci:
