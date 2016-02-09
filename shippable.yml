@@ -30,10 +30,10 @@ build:
 git:
  submodules: false
  
-#integrations:
- # hub:
-  #  - integrationName: ship-docker
-   #   type: docker
+integrations:
+  hub:
+    - integrationName: ship-aws
+      type: aws
     #  branches:
      #   only:
       #    - master
