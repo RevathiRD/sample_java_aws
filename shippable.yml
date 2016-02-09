@@ -1,10 +1,20 @@
 language: java
 
 jdk:
-   - openjdk7
+   #- openjdk7
    - oraclejdk7
    - openjdk6
    - oraclejdk8
+env:
+ M1=ONE
+ M2=TWO
+matrix:
+ include:
+   - jdk: openjdk7
+ env: M1=one
+ exclude:
+   - jdk: oraclejdk8
+ env: M2=TWO
 
 build:
  # pre_ci:
