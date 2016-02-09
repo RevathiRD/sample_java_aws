@@ -30,11 +30,11 @@ build:
 git:
  submodules: false
  
-#integrations:
- # hub:
-  #  - integrationName: ship-docker
-   #   type: docker
-    #  branches:
+integrations:
+  hub:
+    - integrationName: ship-docker
+      type: docker
+     # branches:
      #   only:
       #    - master
       
