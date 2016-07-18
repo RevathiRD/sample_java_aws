@@ -3,8 +3,7 @@ language: java
 jdk:
    #- openjdk7
    - oraclejdk7
-   - openjdk6
-   - oraclejdk8
+  
 env:
    - M1=ONE
    - M2=TWO
@@ -32,7 +31,7 @@ git:
  
 integrations:
   hub:
-    - integrationName: test-aws
+    - integrationName: test_aws
       type: aws
      # branches:
      #   only:
