@@ -33,6 +33,7 @@ integrations:
   hub:
     - integrationName: test_aws
       type: aws
+      region: us-west-2
      # branches:
      #   only:
       #    - master
